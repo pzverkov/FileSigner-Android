@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI Strings -->
+    <string name="choose_file">选择文件</string>
+    <string name="sign_file">签名</string>
+    <string name="cancel_signing">取消</string>
+    <string name="cancel">取消</string>
+    <string name="history">历史记录</string>
+    <string name="signing_history">签名历史</string>
+    <string name="no_history">暂无签名记录</string>
+    <string name="verify">验证</string>
+    <string name="verification_valid">签名有效</string>
+    <string name="verification_invalid">签名无效 - 文件可能已被修改</string>
+    <string name="verification_error">验证错误：%1$s</string>
+    <string name="verifying">验证中…</string>
+    <string name="dismiss">关闭</string>
+    <string name="no_file_selected">未选择文件</string>
+    <string name="verify_signature">验证签名</string>
+    <string name="verify_select_file">选择要验证的文件</string>
+    <string name="verify_select_signature">选择签名文件 (.sig)</string>
+    <string name="verify_file_selected">文件：%1$s</string>
+    <string name="verify_signature_selected">签名：%1$s</string>
+    <string name="verify_ready">验证</string>
+    <string name="file_selected">已选择文件：%1$s</string>
+    <string name="signing_in_progress">正在签名...</string>
+    <string name="signature_successful">签名成功</string>
+    <string name="signature_saved">签名已保存至：%1$s</string>
+
+    <!-- Error Messages -->
+    <string name="error_file_not_found">错误：文件未找到或无法访问</string>
+    <string name="error_signing_failed">错误：签名失败 - %1$s</string>
+    <string name="error_key_generation_failed">错误：无法生成签名密钥</string>
+    <string name="error_permission_denied">错误：需要存储权限才能访问文件</string>
+    <string name="error_file_read_failed">错误：无法读取所选文件</string>
+    <string name="error_signature_save_failed">错误：无法保存签名文件</string>
+
+    <!-- Permission Rationale -->
+    <string name="permission_rationale_title">需要文件访问权限</string>
+    <string name="permission_rationale_message">此应用需要访问您的文件以选择要进行数字签名的文档。您的文件保留在您的设备上，不会上传到任何地方。</string>
+    <string name="permission_rationale_button">授予访问权限</string>
+    <string name="permission_denied_message">没有文件访问权限，您将无法选择要签名的文件。请在设置中授予权限。</string>
+    <string name="open_settings">打开设置</string>
+
+    <!-- Info -->
+    <string name="app_description">选择文件并使用 ECDSA P-256 加密进行数字签名。签名将保存在原始文件旁边。</string>
+
+    <!-- About -->
+    <string name="about">关于</string>
+    <string name="about_version">版本 %1$s</string>
+    <string name="about_description">File Signer 让您可以使用 ECDSA P-256 加密技术对设备上的任何文件进行数字签名。签名保存在原始文件旁边，可随时验证以确保文件完整性。</string>
+    <string name="about_open_source_licenses">开源许可证</string>
+    <string name="about_apache_2_notice">以下库使用 Apache 许可证 2.0：</string>
+    <string name="about_developer">开发者</string>
+</resources>

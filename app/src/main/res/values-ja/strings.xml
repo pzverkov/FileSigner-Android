@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI Strings -->
+    <string name="choose_file">ファイルを選択</string>
+    <string name="sign_file">署名</string>
+    <string name="cancel_signing">キャンセル</string>
+    <string name="cancel">キャンセル</string>
+    <string name="history">履歴</string>
+    <string name="signing_history">署名履歴</string>
+    <string name="no_history">署名はまだありません</string>
+    <string name="verify">検証</string>
+    <string name="verification_valid">署名は有効です</string>
+    <string name="verification_invalid">署名は無効です - ファイルが変更された可能性があります</string>
+    <string name="verification_error">検証エラー：%1$s</string>
+    <string name="verifying">検証中…</string>
+    <string name="dismiss">閉じる</string>
+    <string name="no_file_selected">ファイルが選択されていません</string>
+    <string name="verify_signature">署名を検証</string>
+    <string name="verify_select_file">検証するファイルを選択</string>
+    <string name="verify_select_signature">署名ファイルを選択 (.sig)</string>
+    <string name="verify_file_selected">ファイル：%1$s</string>
+    <string name="verify_signature_selected">署名：%1$s</string>
+    <string name="verify_ready">検証</string>
+    <string name="file_selected">選択されたファイル：%1$s</string>
+    <string name="signing_in_progress">署名中...</string>
+    <string name="signature_successful">署名に成功しました</string>
+    <string name="signature_saved">署名の保存先：%1$s</string>
+
+    <!-- Error Messages -->
+    <string name="error_file_not_found">エラー：ファイルが見つからないか、アクセスできません</string>
+    <string name="error_signing_failed">エラー：署名に失敗しました - %1$s</string>
+    <string name="error_key_generation_failed">エラー：署名キーを生成できませんでした</string>
+    <string name="error_permission_denied">エラー：ファイルにアクセスするにはストレージ権限が必要です</string>
+    <string name="error_file_read_failed">エラー：選択したファイルを読み取れませんでした</string>
+    <string name="error_signature_save_failed">エラー：署名ファイルを保存できませんでした</string>
+
+    <!-- Permission Rationale -->
+    <string name="permission_rationale_title">ファイルアクセスが必要です</string>
+    <string name="permission_rationale_message">このアプリはデジタル署名するドキュメントを選択するために、ファイルへのアクセスが必要です。ファイルはデバイス上に保持され、どこにもアップロードされません。</string>
+    <string name="permission_rationale_button">アクセスを許可</string>
+    <string name="permission_denied_message">ファイルアクセス権限がないと、署名するファイルを選択できません。設定で権限を付与してください。</string>
+    <string name="open_settings">設定を開く</string>
+
+    <!-- Info -->
+    <string name="app_description">ファイルを選択し、ECDSA P-256 暗号化を使用してデジタル署名します。署名は元のファイルと一緒に保存されます。</string>
+
+    <!-- About -->
+    <string name="about">アプリについて</string>
+    <string name="about_version">バージョン %1$s</string>
+    <string name="about_description">File Signer は ECDSA P-256 暗号技術を使用して、デバイス上の任意のファイルにデジタル署名できます。署名は元のファイルと一緒に保存され、いつでも検証してファイルの整合性を確認できます。</string>
+    <string name="about_open_source_licenses">オープンソースライセンス</string>
+    <string name="about_apache_2_notice">以下のライブラリは Apache License 2.0 の下で使用されています：</string>
+    <string name="about_developer">開発者</string>
+</resources>

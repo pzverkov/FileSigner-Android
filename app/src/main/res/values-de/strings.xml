@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI Strings -->
+    <string name="choose_file">Datei auswählen</string>
+    <string name="sign_file">Signieren</string>
+    <string name="cancel_signing">Abbrechen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="history">Verlauf</string>
+    <string name="signing_history">Signaturverlauf</string>
+    <string name="no_history">Noch keine Signaturen</string>
+    <string name="verify">Überprüfen</string>
+    <string name="verification_valid">Signatur ist gültig</string>
+    <string name="verification_invalid">Signatur ist ungültig - Datei wurde möglicherweise verändert</string>
+    <string name="verification_error">Überprüfungsfehler: %1$s</string>
+    <string name="verifying">Überprüfung…</string>
+    <string name="dismiss">Schließen</string>
+    <string name="no_file_selected">Keine Datei ausgewählt</string>
+    <string name="verify_signature">Signatur überprüfen</string>
+    <string name="verify_select_file">Datei zur Überprüfung auswählen</string>
+    <string name="verify_select_signature">Signaturdatei auswählen (.sig)</string>
+    <string name="verify_file_selected">Datei: %1$s</string>
+    <string name="verify_signature_selected">Signatur: %1$s</string>
+    <string name="verify_ready">Überprüfen</string>
+    <string name="file_selected">Datei ausgewählt: %1$s</string>
+    <string name="signing_in_progress">Signierung läuft...</string>
+    <string name="signature_successful">Signierung erfolgreich</string>
+    <string name="signature_saved">Signatur gespeichert unter: %1$s</string>
+
+    <!-- Error Messages -->
+    <string name="error_file_not_found">Fehler: Datei nicht gefunden oder nicht zugänglich</string>
+    <string name="error_signing_failed">Fehler: Signierung fehlgeschlagen - %1$s</string>
+    <string name="error_key_generation_failed">Fehler: Signaturschlüssel konnte nicht erzeugt werden</string>
+    <string name="error_permission_denied">Fehler: Speicherberechtigung ist erforderlich, um auf Dateien zuzugreifen</string>
+    <string name="error_file_read_failed">Fehler: Die ausgewählte Datei konnte nicht gelesen werden</string>
+    <string name="error_signature_save_failed">Fehler: Signaturdatei konnte nicht gespeichert werden</string>
+
+    <!-- Permission Rationale -->
+    <string name="permission_rationale_title">Dateizugriff erforderlich</string>
+    <string name="permission_rationale_message">Diese App benötigt Zugriff auf Ihre Dateien, um Dokumente für die digitale Signierung auszuwählen. Ihre Dateien verbleiben auf Ihrem Gerät und werden nirgendwohin hochgeladen.</string>
+    <string name="permission_rationale_button">Zugriff gewähren</string>
+    <string name="permission_denied_message">Ohne Dateizugriffsberechtigung können Sie keine Dateien zum Signieren auswählen. Bitte erteilen Sie die Berechtigung in den Einstellungen.</string>
+    <string name="open_settings">Einstellungen öffnen</string>
+
+    <!-- Info -->
+    <string name="app_description">Wählen Sie eine Datei aus und signieren Sie sie digital mit ECDSA P-256-Verschlüsselung. Die Signatur wird neben der Originaldatei gespeichert.</string>
+
+    <!-- About -->
+    <string name="about">Über</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">File Signer ermöglicht Ihnen, jede Datei auf Ihrem Gerät mit ECDSA P-256-Kryptographie digital zu signieren. Signaturen werden neben der Originaldatei gespeichert und können jederzeit überprüft werden, um die Dateiintegrität sicherzustellen.</string>
+    <string name="about_open_source_licenses">Open-Source-Lizenzen</string>
+    <string name="about_apache_2_notice">Die folgenden Bibliotheken werden unter der Apache-Lizenz 2.0 verwendet:</string>
+    <string name="about_developer">Entwickler</string>
+</resources>

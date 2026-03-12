@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI Strings -->
+    <string name="choose_file">Choose File</string>
+    <string name="sign_file">Sign</string>
+    <string name="cancel_signing">Cancel</string>
+    <string name="cancel">Cancel</string>
+    <string name="history">History</string>
+    <string name="signing_history">Signing History</string>
+    <string name="no_history">No signatures yet</string>
+    <string name="verify">Verify</string>
+    <string name="verification_valid">Signature is valid</string>
+    <string name="verification_invalid">Signature is invalid - file may have been modified</string>
+    <string name="verification_error">Verification error: %1$s</string>
+    <string name="verifying">Verifying…</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="verify_signature">Verify Signature</string>
+    <string name="verify_select_file">Select File to Verify</string>
+    <string name="verify_select_signature">Select Signature File (.sig)</string>
+    <string name="verify_file_selected">File: %1$s</string>
+    <string name="verify_signature_selected">Signature: %1$s</string>
+    <string name="verify_ready">Verify</string>
+    <string name="file_selected">File selected: %1$s</string>
+    <string name="signing_in_progress">Signing in progress...</string>
+    <string name="signature_successful">Signature successful</string>
+    <string name="signature_saved">Signature saved to: %1$s</string>
+
+    <!-- Error Messages -->
+    <string name="error_file_not_found">Error: File not found or inaccessible</string>
+    <string name="error_signing_failed">Error: Signing failed - %1$s</string>
+    <string name="error_key_generation_failed">Error: Could not generate signing key</string>
+    <string name="error_permission_denied">Error: Storage permission is required to access files</string>
+    <string name="error_file_read_failed">Error: Could not read the selected file</string>
+    <string name="error_signature_save_failed">Error: Could not save signature file</string>
+
+    <!-- Permission Rationale -->
+    <string name="permission_rationale_title">File Access Required</string>
+    <string name="permission_rationale_message">This app needs access to your files to select documents for digital signing. Your files remain on your device and are not uploaded anywhere.</string>
+    <string name="permission_rationale_button">Grant Access</string>
+    <string name="permission_denied_message">Without file access permission, you cannot select files to sign. Please grant permission in Settings.</string>
+    <string name="open_settings">Open Settings</string>
+
+    <!-- Info -->
+    <string name="app_description">Select a file and sign it digitally using ECDSA P-256 encryption. The signature will be saved alongside the original file.</string>
+
+    <!-- About -->
+    <string name="about">About</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">File Signer lets you digitally sign any file on your device using ECDSA P-256 cryptography. Signatures are saved alongside the original file and can be verified at any time to ensure file integrity.</string>
+    <string name="about_open_source_licenses">Open-Source Licences</string>
+    <string name="about_apache_2_notice">The following libraries are used under the Apache Licence 2.0:</string>
+    <string name="about_developer">Developer</string>
+</resources>

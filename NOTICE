@@ -1,0 +1,19 @@
+File Signer for Android
+Copyright 2026 pzverkov
+
+This product includes software developed by pzverkov.
+
+Licensed under the Apache License, Version 2.0.
+
+This application implements ECDSA P-256 (secp256r1) digital signature
+operations using the Android KeyStore system. It is provided as a
+general-purpose file signing utility and does NOT constitute:
+
+- A qualified electronic signature tool under eIDAS Regulation (EU) 910/2014
+- A FIPS 140-2 or FIPS 140-3 validated cryptographic module
+- A certified security product under any national or international scheme
+- Legal, regulatory, or compliance advice of any kind
+
+Users are solely responsible for determining whether this software is
+appropriate for their use case and for compliance with all applicable
+laws and regulations in their jurisdiction.

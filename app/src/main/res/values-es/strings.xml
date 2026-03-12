@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI Strings -->
+    <string name="choose_file">Elegir archivo</string>
+    <string name="sign_file">Firmar</string>
+    <string name="cancel_signing">Cancelar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="history">Historial</string>
+    <string name="signing_history">Historial de firmas</string>
+    <string name="no_history">Aún no hay firmas</string>
+    <string name="verify">Verificar</string>
+    <string name="verification_valid">La firma es válida</string>
+    <string name="verification_invalid">La firma no es válida - el archivo puede haber sido modificado</string>
+    <string name="verification_error">Error de verificación: %1$s</string>
+    <string name="verifying">Verificando…</string>
+    <string name="dismiss">Cerrar</string>
+    <string name="no_file_selected">Ningún archivo seleccionado</string>
+    <string name="verify_signature">Verificar firma</string>
+    <string name="verify_select_file">Seleccionar archivo a verificar</string>
+    <string name="verify_select_signature">Seleccionar archivo de firma (.sig)</string>
+    <string name="verify_file_selected">Archivo: %1$s</string>
+    <string name="verify_signature_selected">Firma: %1$s</string>
+    <string name="verify_ready">Verificar</string>
+    <string name="file_selected">Archivo seleccionado: %1$s</string>
+    <string name="signing_in_progress">Firma en curso...</string>
+    <string name="signature_successful">Firma exitosa</string>
+    <string name="signature_saved">Firma guardada en: %1$s</string>
+
+    <!-- Error Messages -->
+    <string name="error_file_not_found">Error: Archivo no encontrado o inaccesible</string>
+    <string name="error_signing_failed">Error: La firma falló - %1$s</string>
+    <string name="error_key_generation_failed">Error: No se pudo generar la clave de firma</string>
+    <string name="error_permission_denied">Error: Se requiere permiso de almacenamiento para acceder a los archivos</string>
+    <string name="error_file_read_failed">Error: No se pudo leer el archivo seleccionado</string>
+    <string name="error_signature_save_failed">Error: No se pudo guardar el archivo de firma</string>
+
+    <!-- Permission Rationale -->
+    <string name="permission_rationale_title">Acceso a archivos requerido</string>
+    <string name="permission_rationale_message">Esta aplicación necesita acceso a sus archivos para seleccionar documentos para la firma digital. Sus archivos permanecen en su dispositivo y no se suben a ningún lugar.</string>
+    <string name="permission_rationale_button">Conceder acceso</string>
+    <string name="permission_denied_message">Sin permiso de acceso a archivos, no puede seleccionar archivos para firmar. Por favor, conceda el permiso en Ajustes.</string>
+    <string name="open_settings">Abrir Ajustes</string>
+
+    <!-- Info -->
+    <string name="app_description">Seleccione un archivo y fírmelo digitalmente usando cifrado ECDSA P-256. La firma se guardará junto al archivo original.</string>
+
+    <!-- About -->
+    <string name="about">Acerca de</string>
+    <string name="about_version">Versión %1$s</string>
+    <string name="about_description">File Signer le permite firmar digitalmente cualquier archivo en su dispositivo usando criptografía ECDSA P-256. Las firmas se guardan junto al archivo original y se pueden verificar en cualquier momento para garantizar la integridad del archivo.</string>
+    <string name="about_open_source_licenses">Licencias de código abierto</string>
+    <string name="about_apache_2_notice">Las siguientes bibliotecas se utilizan bajo la Licencia Apache 2.0:</string>
+    <string name="about_developer">Desarrollador</string>
+</resources>

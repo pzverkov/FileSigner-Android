@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Disallow all cleartext (HTTP) traffic. This app has no INTERNET
+         permission but the config hardens against accidental future additions. -->
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>

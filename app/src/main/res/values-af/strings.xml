@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI Strings -->
+    <string name="choose_file">Kies lêer</string>
+    <string name="sign_file">Teken</string>
+    <string name="cancel_signing">Kanselleer</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="history">Geskiedenis</string>
+    <string name="signing_history">Ondertekeningsgeskiedenis</string>
+    <string name="no_history">Nog geen handtekeninge nie</string>
+    <string name="verify">Verifieer</string>
+    <string name="verification_valid">Handtekening is geldig</string>
+    <string name="verification_invalid">Handtekening is ongeldig - lêer is moontlik gewysig</string>
+    <string name="verification_error">Verifiëringsfout: %1$s</string>
+    <string name="verifying">Verifieer tans…</string>
+    <string name="dismiss">Sluit</string>
+    <string name="no_file_selected">Geen lêer gekies nie</string>
+    <string name="verify_signature">Verifieer handtekening</string>
+    <string name="verify_select_file">Kies lêer om te verifieer</string>
+    <string name="verify_select_signature">Kies handtekeninglêer (.sig)</string>
+    <string name="verify_file_selected">Lêer: %1$s</string>
+    <string name="verify_signature_selected">Handtekening: %1$s</string>
+    <string name="verify_ready">Verifieer</string>
+    <string name="file_selected">Lêer gekies: %1$s</string>
+    <string name="signing_in_progress">Ondertekening aan die gang...</string>
+    <string name="signature_successful">Ondertekening suksesvol</string>
+    <string name="signature_saved">Handtekening gestoor na: %1$s</string>
+
+    <!-- Error Messages -->
+    <string name="error_file_not_found">Fout: Lêer nie gevind of ontoeganklik nie</string>
+    <string name="error_signing_failed">Fout: Ondertekening het misluk - %1$s</string>
+    <string name="error_key_generation_failed">Fout: Kon nie ondertekeningsleutel genereer nie</string>
+    <string name="error_permission_denied">Fout: Stoortoestemming is nodig om toegang tot lêers te verkry</string>
+    <string name="error_file_read_failed">Fout: Kon nie die geselekteerde lêer lees nie</string>
+    <string name="error_signature_save_failed">Fout: Kon nie handtekeninglêer stoor nie</string>
+
+    <!-- Permission Rationale -->
+    <string name="permission_rationale_title">Lêertoegang benodig</string>
+    <string name="permission_rationale_message">Hierdie toep het toegang tot jou lêers nodig om dokumente vir digitale ondertekening te kies. Jou lêers bly op jou toestel en word nêrens opgelaai nie.</string>
+    <string name="permission_rationale_button">Verleen toegang</string>
+    <string name="permission_denied_message">Sonder lêertoegangtoestemming kan jy nie lêers kies om te teken nie. Verleen asseblief toestemming in Instellings.</string>
+    <string name="open_settings">Maak Instellings oop</string>
+
+    <!-- Info -->
+    <string name="app_description">Kies \'n lêer en teken dit digitaal met ECDSA P-256-enkripsie. Die handtekening word langs die oorspronklike lêer gestoor.</string>
+
+    <!-- About -->
+    <string name="about">Meer oor</string>
+    <string name="about_version">Weergawe %1$s</string>
+    <string name="about_description">File Signer laat jou enige lêer op jou toestel digitaal teken met ECDSA P-256-kriptografie. Handtekeninge word langs die oorspronklike lêer gestoor en kan te eniger tyd geverifieer word om lêerintegriteit te verseker.</string>
+    <string name="about_open_source_licenses">Oopbronlisensies</string>
+    <string name="about_apache_2_notice">Die volgende biblioteke word onder die Apache-lisensie 2.0 gebruik:</string>
+    <string name="about_developer">Ontwikkelaar</string>
+</resources>
