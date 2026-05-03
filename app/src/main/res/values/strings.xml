@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">File Signer</string>
+    <string name="app_name" translatable="false">File Signer</string>
 
     <!-- UI Strings -->
     <string name="choose_file">Choose File</string>
     <string name="sign_file">Sign</string>
-    <string name="dev_generate_sample_pdf">Generate Sample PDF</string>
+    <string name="dev_generate_sample_pdf" translatable="false">Generate Sample PDF</string>
     <string name="cancel_signing">Cancel</string>
     <string name="cancel">Cancel</string>
     <string name="history">History</string>
@@ -54,5 +54,5 @@
     <string name="about_open_source_licenses">Open-Source Licenses</string>
     <string name="about_apache_2_notice">The following libraries are used under the Apache License 2.0:</string>
     <string name="about_developer">Developer</string>
-    <string name="about_developer_github">github.com/pzverkov</string>
+    <string name="about_developer_github" translatable="false">github.com/pzverkov</string>
 </resources>

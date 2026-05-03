@@ -7,6 +7,7 @@ import android.os.Build
 import android.os.Environment
 import android.provider.MediaStore
 import android.provider.OpenableColumns
+import androidx.annotation.RequiresApi
 import com.filesigner.domain.model.FileInfo
 import timber.log.Timber
 import java.io.File
@@ -88,6 +89,7 @@ class FileDataSource @Inject constructor(
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.Q)
     private fun saveSignatureScoped(fileName: String, signature: ByteArray): Result<Uri> {
         val contentValues = ContentValues().apply {
             put(MediaStore.Downloads.DISPLAY_NAME, fileName)
